@@ -508,19 +508,19 @@ transition: var(--animation);
   justify-content: center;
   column-gap: 16px;
   margin-top: 16px;
+  margin-right: 80px;
 }
 
 .footer-soc-item {
   height: 40px;
   width: 40px;
-
 }
 
 .footer-soc-link {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: var(--brand-color);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -534,6 +534,62 @@ transition: var(--animation);
 .footer-soc-link:is(:hover, :focus) {
   background-color: var(--success-color);
   cursor: pointer;
+}
+
+.footer-subscribe-list{
+}
+
+.footer-item-subscribe{
+}
+
+.footer-form {
+  display: flex;
+  justify-content: end;
+  gap: 24px;
+  margin-top: 16px;
+}
+
+.footer-form-input {
+height: 40px;
+width: 264px;
+border: 1px solid #FFFFFF;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+background: var(--dark-color);
+padding-left: 16px;
+}
+
+.footer-form-input::placeholder {
+color: #FFFFFF;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: calc(12/24);
+letter-spacing: 0.04em;
+
+}
+
+.footer-form-btn {
+  border-radius: 4px;
+  border: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(16/24);
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  background: var(--brand-color);
+  padding: 8px 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  
+}
+.footer-form-icon {
+  fill: #FFFFFF;
 }
 
 /* ------------------- PORTFOLIO PAGE ---------------- */
@@ -710,3 +766,30 @@ fill: var(--dark-color);
   opacity: 0;
   pointer-events: none;
 }
+
+.modal-form-title {
+  font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(16/24);
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--dark-color);
+}
+
+.modal-form {}
+
+.modal-form-lable {}
+
+.modal-form-input-name {
+  width: 100%;
+}
+
+.modal-form-input-phone {}
+
+.modal-form-input-email {}
+
+.modal-form-input-comment {}
+
+.modal-form-btn {}

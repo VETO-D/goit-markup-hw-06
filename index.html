@@ -312,16 +312,38 @@
               </li>
             </ul>
           </li>
+            <li class="footer-item-subscribe">
+              <p class="footer-title">Subscribe</p>
+              <label>
+                <form class="footer-form">
+                  <input type="email" class="footer-form-input" placeholder="E-mail" name="subscribe-email">
+                  <button class="footer-form-btn" type="submit">Subscribe
+                    <svg class="footer-form-icon" height="24" width="24">
+                    <use href="./images/symbol-defs.svg#icon-icon-send"></use>
+                  </svg>
+                  </button>
+                </form>
+              </label>
+            </li>
         </ul>
       </div>
   </footer>
-  <div class="backdrop is-hidden" data-modal>
+  <div class="backdrop" data-modal>
     <div class="modal">
       <button class="modal-btn-close" type="button" data-modal-close>
         <svg class="modal-btn-close-icon" height="8" width="8">
           <use href="./images/modal-icon.svg#icon-close-btn"></use>
         </svg>
       </button>
+      <p class="modal-form-title">Leave your contacts and we will call you back</p>
+      <form class="modal-form">
+        <lable class="modal-form-lable">Name<input class="modal-form-input-name" type="text" name="modal-name"></lable>
+        <lable class="modal-form-lable">Phone<input class="modal-form-input-phone" type="phone" name="modal-phone"></lable>
+        <lable class="modal-form-lable">Email<input class="modal-form-input-email" type="email" name="modal-email"></lable>
+        <label class="modal-form-lable">Comment<textarea name="modal-form-comment" id="modal-form-comment" cols="30" rows="10" placeholder="Text input">Text input</textarea></label>
+        <input type="checkbox" name="" id=""> I accept the terms and conditions of the <a href="">Privacy Policy<a>
+        <button class="modal-form-btn" type="submit">Send</button>
+      </form>
     </div>
   </div>
   <script src="./js/modal.js"></script>
