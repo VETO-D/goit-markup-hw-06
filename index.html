@@ -337,10 +337,14 @@
       </button>
       <p class="modal-form-title">Leave your contacts and we will call you back</p>
       <form class="modal-form">
-        <lable class="modal-form-lable">Name<input class="modal-form-input-name" type="text" name="modal-name"></lable>
-        <lable class="modal-form-lable">Phone<input class="modal-form-input-phone" type="phone" name="modal-phone"></lable>
-        <lable class="modal-form-lable">Email<input class="modal-form-input-email" type="email" name="modal-email"></lable>
-        <label class="modal-form-lable">Comment<textarea name="modal-form-comment" id="modal-form-comment" cols="30" rows="10" placeholder="Text input">Text input</textarea></label>
+        <div class="modal-field"><label for="modal-name"><span class="modal-form-label">Name</span><input class="modal-form-input" type="text" name="modal-name" id="modal-name"></label>
+        <svg>
+          <use href="./images/modal-icon.svg#"></use>
+        </svg>
+        </div>
+        <label for="modal-phone"><span class="modal-form-label">Phone</span><input class="modal-form-input" type="phone" name="modal-phone" id="modal-phone"></label>
+        <label for="modal-email"><span class="modal-form-label">Email</span><input class="modal-form-input" type="email" name="modal-email" id="modal-email"></label>
+        <label for="modal-form-comment"><span class="modal-form-label">Comment</span><textarea name="modal-form-comment" id="modal-form-comment" cols="30" rows="10" placeholder="Text input" id="modal-form-comment">Text input</textarea></label>
         <input type="checkbox" name="" id=""> I accept the terms and conditions of the <a href="">Privacy Policy<a>
         <button class="modal-form-btn" type="submit">Send</button>
       </form>
