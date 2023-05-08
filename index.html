@@ -437,66 +437,68 @@
           Leave your contacts and we will call you back
         </p>
         <form class="modal-form">
-          <label for="modal-name">
-            <span class="modal-form-label">Name</span>
-            <div class="modal-field">
-              <input
-                class="modal-form-input"
-                type="text"
-                name="modal-name"
-                id="modal-name"
-              />
-              <svg class="modal-field-icon" height="18" width="18">
-                <use
-                  href="./images/modal-icon.svg#icon-person-black-18dp-1"
-                ></use>
-              </svg>
-            </div>
-          </label>
-          <label for="modal-phone"
-            ><span class="modal-form-label">Phone</span>
-            <div class="modal-field">
-              <input
-                class="modal-form-input"
-                type="number"
-                name="modal-phone"
-                id="modal-phone"
-              />
-              <svg class="modal-field-icon" height="24" width="18">
-                <use
-                  href="./images/modal-icon.svg#icon-phone-black-18dp-1"
-                ></use>
-              </svg>
-            </div>
-          </label>
+          <div class="modal-field">
+            <label for="modal-name">
+              <span class="modal-form-label">Name</span>
+              <div class="input-wrap">
+                <input
+                  class="modal-form-input"
+                  type="text"
+                  name="modal-name"
+                  id="modal-name"
+                />
+                <svg class="modal-field-icon" height="18" width="18">
+                  <use
+                    href="./images/modal-icon.svg#icon-person-black-18dp-1"
+                  ></use>
+                </svg>
+              </div>
+            </label>
+          </div>
+          <div class="modal-field">
+            <label for="modal-phone"
+              ><span class="modal-form-label">Phone</span>
+              <div class="input-wrap">
+                <input
+                  class="modal-form-input"
+                  type="number"
+                  name="modal-phone"
+                  id="modal-phone"
+                />
+                <svg class="modal-field-icon" height="24" width="18">
+                  <use
+                    href="./images/modal-icon.svg#icon-phone-black-18dp-1"
+                  ></use>
+                </svg>
+              </div>
+            </label>
+          </div>
 
-          <label for="modal-email"
-            ><span class="modal-form-label">Email</span>
-            <div class="modal-field">
-              <input
-                class="modal-form-input"
-                type="email"
-                name="modal-email"
-                id="modal-email"
-              /><svg class="modal-field-icon" height="24" width="18">
-                <use
-                  href="./images/modal-icon.svg#icon-email-black-18dp-1"
-                ></use>
-              </svg>
-            </div>
-          </label>
+          <div class="modal-field">
+            <label for="modal-email"
+              ><span class="modal-form-label">Email</span>
+              <div class="input-wrap">
+                <input
+                  class="modal-form-input"
+                  type="email"
+                  name="modal-email"
+                  id="modal-email"
+                /><svg class="modal-field-icon" height="24" width="18">
+                  <use
+                    href="./images/modal-icon.svg#icon-email-black-18dp-1"
+                  ></use>
+                </svg>
+              </div>
+            </label>
+          </div>
           <label for="modal-form-comment"
             ><span class="modal-form-label">Comment</span
             ><textarea
               name="modal-form-comment"
               id="modal-form-comment"
-              cols="30"
-              rows="10"
+              class="modal-form-textarea"
               placeholder="Text input"
-            >
-Text input
-          </textarea
-            >
+            ></textarea>
           </label>
           <input type="checkbox" name="" id="" />I accept the terms
           andconditions of the<a href="">Privacy Policy</a>
